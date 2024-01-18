@@ -10,11 +10,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use OscarWeijman\IconPicker\Commands\IconPickerCommand;
+use OscarWeijman\IconPicker\Testing\TestsIconPicker;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use OscarWeijman\IconPicker\Commands\IconPickerCommand;
-use OscarWeijman\IconPicker\Testing\TestsIconPicker;
 
 class IconPickerServiceProvider extends PackageServiceProvider
 {
